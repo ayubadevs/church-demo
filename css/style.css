@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{font-family: verdana;}
+  
+  header{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  }
+  
+  .text{
+      position: absolute;
+      color: #fff;
+      line-height: 1.5;
+      text-align: center;
+  }
+  
+  .overlay{
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      background-color: #18266c;
+      opacity: 0.3;
+  }
+  
+  .button{
+      background: #fff;
+      border-radius: 40px;
+      color: #18266c;
+      font-size: 1.5em;
+      padding: .7em 1.2em;
+      text-decoration: none;
+      box-sizing: border-box;
+      cursor: pointer;
+  }
+  
+  h1{font-size: 2.5em;}
+  
+  p{
+      font-size: 1.5em;
+      margin-bottom: 1em;
+  }
+  
